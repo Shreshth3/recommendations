@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "snowpack dev",
+    "start": "export FLASK_APP=server/server.py && flask run & snowpack dev",
     "build": "snowpack build",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
